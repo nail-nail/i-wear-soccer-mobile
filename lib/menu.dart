@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:i_wear_soccer/product_form.dart';
 import 'package:i_wear_soccer/widgets/left_drawer.dart';
 import 'package:i_wear_soccer/widgets/product_card.dart';
 
@@ -36,14 +35,6 @@ class InfoCard extends StatelessWidget {
     );
   }
 }
-class ItemHomepage {
-  final String name;
-  final IconData icon;
-  final Color color;
-
-  ItemHomepage(this.name, this.icon, this.color);
-}
-
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
   final String nama = "Naila Khadijah"; //nama
@@ -52,7 +43,7 @@ class MyHomePage extends StatelessWidget {
   final List<ItemHomepage> items = [
     ItemHomepage("All Products", Icons.shop, Color(0xFF276CB7)),
     ItemHomepage("My Products", Icons.add, Color(0xFF27B749)),
-    ItemHomepage("Create Product", Icons.logout, Color(0xFFB62626)),
+    ItemHomepage("Add Product", Icons.logout, Color(0xFFB62626)),
   ];
 
   @override

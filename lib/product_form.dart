@@ -35,7 +35,7 @@ class _ProductFormPageState extends State<ProductFormPage> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Add News Form',
+            'Add Product Form',
           ),
         ),
         backgroundColor: Colors.indigo,
