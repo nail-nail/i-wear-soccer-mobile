@@ -42,8 +42,8 @@ class MyHomePage extends StatelessWidget {
   final String kelas = "C"; //kelas
   final List<ItemHomepage> items = [
     ItemHomepage("All Products", Icons.shop, Color(0xFF276CB7)),
-    ItemHomepage("My Products", Icons.add, Color(0xFF27B749)),
-    ItemHomepage("Add Product", Icons.logout, Color(0xFFB62626)),
+    ItemHomepage("My Products", Icons.all_inbox_rounded, Color(0xFF27B749)),
+    ItemHomepage("Add Product", Icons.add, Color(0xFFB62626)),
   ];
 
   @override
@@ -125,4 +125,6 @@ class MyHomePage extends StatelessWidget {
       ),
     );
   }}
+
+  
 

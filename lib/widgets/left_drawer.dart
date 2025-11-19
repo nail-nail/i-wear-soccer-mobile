@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:i_wear_soccer/menu.dart';
+import 'package:i_wear_soccer/screens/menu.dart';
 // TODO: Impor halaman ProductFormPage jika sudah dibuat
 import 'package:i_wear_soccer/product_form.dart';
 
